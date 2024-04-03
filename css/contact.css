@@ -1,0 +1,92 @@
+html {
+    /*root element*/
+    font-size: 19px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: black;
+    color: var(--main-bg-color);
+}
+
+.navbar li {
+    /*nav bar iteam*/
+    color: var(--main-bg-color);
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    display: flexbox;
+    justify-content: center;
+
+}
+
+.navbar li a {
+    /*anchor*/
+    text-decoration: none;
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li a:hover {
+    /*nav bar list*/
+    color: var(--hover-color);
+    text-decoration: underline;
+    /* background-color: rgb(55, 53, 53); */
+    /* position: relative; */
+    /* border: 2px solid; */
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+}
+
+.navigation {
+    /*nav bar*/
+    display: flex;
+    position: fixed;
+    margin-top: -80px;
+}
+
+h1 {
+    /*headining*/
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+section p {
+    /*paragraph*/
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+section {
+    /* border: red solid; */
+    margin: 98px 66px;
+}
+section hr{
+    color: var(--main-bg-color);
+}
+header::before{
+    background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.6;
+}

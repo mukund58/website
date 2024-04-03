@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&family=Maven+Pro:wght@500&family=Signika+Negative:wght@500&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Merienda:wght@300..900&display=swap');
+:root {
+    --main-bg-color:rgb(255, 255, 255);
+    --hover-color:aqua;
+       --font1: 'Lilita One', cursive;
+      --font2: 'Maven Pro', sans-serif;
+      --font3: 'Signika Negative', sans-serif;
+      --font4: 'Ubuntu', sans-serif;
+      --font5: 'Fjalla One', sans-serif;
+      --font6:'Courier New', Courier, monospace;
+      --font7: "Atkinson Hyperlegible", sans-serif;
+      --font8:"Merienda", cursive;
+  }
+
+
+  .font1{
+    font-family: var(--font1);
+  }
+  .font2{
+    font-family: var(--font2);
+  }
+  .font3{
+    font-family: var(--font3);
+  }
+  .font4{
+    font-family: var(--font4);
+  }
+  .font5{
+    font-family: var(--font5);
+  }
+  .font6{
+    font-family: var(--font6);
+  }
+  .font7{
+    font-family: var(--font7);
+  }
+  .font8{
+    font-family: var(--font8);
+  }
+
+  body{
+    cursor: url('/asserts/pic/bllue-cursor1.png'), default;
+    image-rendering: pixelated;
+}
+
+.navbar li a:hover {
+    cursor: url('/asserts/pic/pointer.png'),pointer;
+
+}

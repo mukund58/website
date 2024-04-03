@@ -1,34 +1,40 @@
-
-
-html{ /*root element*/
+html {
+    /*root element*/
     font-size: 19px;
 }
-body{
+
+body {
     padding: 0px;
     margin: 0px;
-    background:black;
-    color: white;
+    background: black;
+    color: var(--main-bg-color);
 }
 
-.navbar li{  /*nav bar iteam*/
-    color: rgb(246, 246, 246);
+.navbar li {
+    /*nav bar iteam*/
+    color: var(--main-bg-color);
     list-style: none;
     margin: 10px 20px;
     font-family: 'Righteous', cursive;
-    font-size: 15px;
+    font-size: 17px;
     display: flexbox;
     justify-content: center;
-    
+
 }
 
- .navbar li a{ /*anchor*/
+.navbar li a {
+    /*anchor*/
     text-decoration: none;
-    color: white;
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
- .navbar li  a:hover {  /*nav bar list*/
-    color: aqua;
-    text-decoration: underline; 
+.navbar li a:hover {
+    /*nav bar list*/
+    color: var(--hover-color);
+    text-decoration: underline;
     /* background-color: rgb(55, 53, 53); */
     /* position: relative; */
     /* border: 2px solid; */
@@ -36,39 +42,82 @@ body{
     /* padding: 10px; */
 }
 
-.navigation{  /*nav bar*/
+.navigation {
+    /*nav bar*/
     display: flex;
     position: fixed;
     margin-top: -80px;
 }
 
-h1{  /*headining*/
+h1 {
+    /*headining*/
     text-align: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
 }
 
-section p{  /*paragraph*/
+section img {
+    display: block;
+    margin: 0 auto;
+}
+section p {
+    /*paragraph*/
     justify-content: center;
     text-align: center;
-    margin:  10px;
-    font-family: 'Pacifico', cursive;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    /* font-family: 'Pacifico', cursive; */
 }
 
-section{
+section {
     /* border: red solid; */
-    margin: 98px 266px;
+    margin: 98px 66px;
 }
-
-.arch{
+section hr{
+    color: var(--main-bg-color);
+}
+header::before{
+    background-image: url('/asserts/pic/arch.jpg');
     content: "";
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-repeat: no-repeat;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.6;
+}
+
+@media screen and (max-width:700px) {
+    h1 {
+        /* CSS rules for devices with a width of 600px or less go here */
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        text-align: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        font-size: 1.5rem;
+    }
+    section {
+        margin: 100px 100px;
+    }
+
+}
+
+@media (min-width:701px)and (max-width:900px) {
+    h1 {
+        /* CSS rules for devices with a max-width of 900px or less go 701px */
+        display: block;
+        /* background-color: rgb(177, 245, 20); */
+    }
+}
+
+@media (min-width:901px) {
+    h1 {
+        /* CSS rules for devices with a min-width of 901px */
+        display: block;
+        /* background-color: rgb(214, 13, 90); */
+    }
 }
