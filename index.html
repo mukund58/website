@@ -4,102 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Before & after Pseudo selector</title>
+    <title>Mukundis.me</title>
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sigmar&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <style>
-        html{ /*root element*/
-            font-size: 19px;
-        }
-        body{
-            padding: 0px;
-            margin: 0px;
-            background:black;
-            color: white;
-        }
+     <link rel="stylesheet" href="/css/style.css"> 
+     <link rel="stylesheet" href="/css/utiles.css">  
+     <link rel="stylesheet" href="/script.js">
+     
 
-        .navbar li{  /*nav bar iteam*/
-            color: rgb(246, 246, 246);
-            list-style: none;
-            margin: 10px 20px; 
-            font-family: 'Righteous', cursive;
-            font-size: 15px;
-        }
-
-         .navbar li a{ /*anchor*/
-            text-decoration: none;
-            color: white;
-        }
-
-         .navbar li  a:hover {  /*nav bar list*/
-            color: aqua;
-            /* text-decoration: underline;  */
-            background-color: rgb(55, 53, 53); 
-            position: relative;
-            border: 2px solid;
-            border-radius: 5px; 
-            padding: 10px;
-        }
-
-        .navigation{  /*nav bar*/
-            display: flex;
-            position: fixed;
-            margin-top: -80px;  
-        }
-
-        h1{  /*headining*/
-            text-align: center;
-            justify-content: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 2.5rem;
-        }
-
-        section p{  /*paragraph*/
-            justify-content: center;
-            text-align: center;
-            margin:  10px;
-            font-family: 'Pacifico', cursive;
-        }
-
-        section{
-            /* border: red solid; */
-            margin: 98px 266px;
-        }
-
-        header::before{  /*Pesudo selector*/
-            background: url('https://source.unsplash.com/collection/190727/1600x900');
-            content: "";
-            position: absolute;
-            top:0;
-            left: 0;
-            width: 100%;
-            height: 1000px;
-            background-repeat: no-repeat;
-            z-index: -1;
-            opacity: 0.3;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <ul class="navigation">
-                <li class="iteam" id="iteam-1"><a href="#">Home</a></li>
-                <li class="iteam" id="iteam-2"> <a href="#">Service</a></li>
-                <li class="iteam" id="iteam-3"> <a href="#">About Us</a></li>
-                <li class="iteam" id="iteam-4"> <a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="content">
+        <header>
+            <nav class="navbar">
+                <ul class="navigation">
+                    <li class="iteam" id="iteam-1"><a href="#">Home</a></li>
+                    <li class="iteam" id="iteam-2"> <a href="blog.html">Blog</a></li>
+                    <li class="iteam" id="iteam-3"> <a href="about.html">About</a></li>
+                    <li class="iteam" id="iteam-4"> <a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section>
-        <hr> 
-        <h1>Welcome To Dark Ruby YT</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus explicabo nulla, ab perspiciatis sequi libero cupiditate repellendus quam reprehenderit dignissimos autem, qui quae quaerat est neque saepe facere fugit.</p>
-        <hr>
-    </section>
-    
+        <section>
+            <h1 class="font8">Well, hello there.</h1>
+            <img src="/asserts/gif/hachiman.gif" alt="">
+            <!-- <hr>  -->
+            <p class="font7" >Yoo! <br>This is a place where i express my self and reveal my personality and write stuff on the internet.My main interests are in computers,GNU/Linux, otaku culture, and playing games.
+            </p>
+            <!-- <hr> -->
+        
+        </section>
+    </div>
 
+    <!-- <hr class="footer-line"> -->
+    <div class="footer">
+        <footer>
+            <p>Copyright 2024&copy, By Cursed Script </p>
+        </footer>
+    </div>
 </body>
 </html>
