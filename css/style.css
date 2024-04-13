@@ -9,7 +9,7 @@ body {
     background: black;
     color: var(--main-bg-color);
     image-rendering: pixelated;
-    cursor: url('/asserts/pic/bllue-cursor1.png'), default;
+    /* cursor: url('/asserts/pic/bllue-cursor1.png'), default; */
 }
 
 .navbar li {
@@ -139,3 +139,79 @@ footer {
 .content {
     margin: 60px;
 }
+
+
+@media screen and (max-width:700px) {
+
+    .navbar li {
+
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* background-color: aqua; */
+
+    }
+
+    .navigation {
+        width: 100%;
+        margin-left: -100px;
+    }
+
+    h1 {
+ 
+        text-align: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        width: 185px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 100px;
+    }
+
+    section img {
+
+        height: 100px;
+        display: block;
+        margin: 7px;
+
+    }
+
+    section p {
+        flex-direction: row;
+        font-size: 1rem;
+        /* background-color: aqua; */
+        width: 250px;
+
+    }
+    footer{
+        bottom: -556px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: -2px 0;
+
+    }
+}
+
+@media (min-width:701px)and (max-width:900px) {
+    h1 {
+        /* CSS rules for devices with a max-width of 900px or less go 701px */
+        display: block;
+        /* background-color: rgb(177, 245, 20); */
+    }
+}
+
+@media (min-width:901px) {
+    h1 {
+        /* CSS rules for devices with a min-width of 901px */
+        display: block;
+        /* background-color: rgb(214, 13, 90); */
+    }
+}
+
