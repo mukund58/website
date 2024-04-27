@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&family=Maven+Pro:wght@500&family=Signika+Negative:wght@500&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Merienda:wght@300..900&display=swap');
+
+
+
+
 :root {
     --main-bg-color:rgb(255, 255, 255);
+    --bg-navbar-footer:#2c3645;
+    --bg-link:#c9daff;
+    --bg-content:#434d5b;
     --hover-color:aqua;
        --font1: 'Lilita One', cursive;
       --font2: 'Maven Pro', sans-serif;
@@ -13,6 +20,9 @@
       --font7: "Atkinson Hyperlegible", sans-serif;
       --font8:"Merienda", cursive;
   }
+
+
+
 
 
   .font1{
@@ -41,11 +51,8 @@
   }
 
   body{
-    cursor: url('/asserts/pic/bllue-cursor1.png'), default;
     image-rendering: pixelated;
 }
 
-.navbar li a:hover {
-    cursor: url('/asserts/pic/pointer.png'),pointer;
 
-}
+
