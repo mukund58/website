@@ -21,7 +21,8 @@ body {
     display: flexbox;
     margin-bottom:0;
     /* position: absolute; */
-    justify-content: center;
+    padding-left: 43px;
+    padding-top: 20px;
 
 }
 
