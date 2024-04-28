@@ -43,8 +43,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 121px;
-
+    padding-right: 0;
+    padding-left:0;
 }
 
 .content {
@@ -58,7 +58,7 @@ a{
 }
 h1 {
 
-    margin-top: 75px;
+    
     text-align: center;
     font-size: 2.5rem;
     left: 1rem;
@@ -66,7 +66,7 @@ h1 {
     animation-iteration-count: infinite;
     animation-name: floatingh1;
     animation-duration: 2s;
-    padding-right: 83px;
+    
 }
 header::before{
     background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
