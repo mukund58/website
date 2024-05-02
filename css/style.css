@@ -8,7 +8,7 @@ body {
     margin: 0px;
     background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
     color: var(--main-bg-color);
-    background-position: right;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
