@@ -1,11 +1,12 @@
 html {
     /*root element*/
+     padding: 0px;
+    margin: 0px;
     font-size: 19px;
 }
 
 body {
-    padding: 0px;
-    margin: 0px;
+
     background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
     color: var(--main-bg-color);
 
