@@ -6,7 +6,7 @@ html {
 body {
     padding: 0px;
     margin: 0px;
-    background-color: var(--bg-navbar-footer);
+    background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');  
     color: var(--main-bg-color);
     image-rendering: pixelated;
 
@@ -70,7 +70,7 @@ h1 {
     
 }
 header::before{
-    background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
+    
     content: "";
     position: absolute;
     top: 0;
