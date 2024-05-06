@@ -59,6 +59,9 @@ body {
     align-items: center;
     /* background-color: var(--bg-content); */
 }
+a:hover{
+     color: var(--hover-color);
+}
 a{
     color: var(--bg-link);
 }
