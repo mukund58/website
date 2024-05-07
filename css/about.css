@@ -16,3 +16,7 @@
     font-size: 15px;
     font-family: var(--font7);
   }
+.content-list ul{
+    list-style: none;
+}
+
