@@ -178,6 +178,9 @@ section {
     .navigation {
         flex-wrap: wrap;
     }
+    .content{
+        flex-direction: column;
+    }
     
 }
 
@@ -190,10 +193,13 @@ section {
     section{
         padding-left: 0;
         padding-right: 0;
-        width: 50%;
+        width: 80%;
     }
     section img {
         height: 173px;
+    }
+    .content{
+        flex-direction: column;
     }
 
 }
@@ -210,5 +216,6 @@ section {
         width: 50%;
 
     }
+
 }
 
