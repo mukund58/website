@@ -1,12 +1,10 @@
 html {
-    /*root element*/
-     padding: 0px;
+    padding: 0px;
     margin: 0px;
     font-size: 19px;
 }
 
 body {
-
     background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
     color: var(--main-bg-color);
 
@@ -21,13 +19,12 @@ body {
     /*nav bar iteam*/
     color: var(--main-bg-color);
     list-style: none;
-    font-family: var(--font4);
-    font-size: 21px;
+    margin: 10px 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
     display: flexbox;
-    margin-bottom:0;
     /* position: absolute; */
-    padding-left: 43px;
-    padding-top: 20px;
+    justify-content: center;
 
 }
 
@@ -49,8 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 0;
-    padding-left:0;
+    padding-right: 91px;
+
 }
 
 .content {
@@ -59,15 +56,12 @@ body {
     align-items: center;
     /* background-color: var(--bg-content); */
 }
-a:hover{
-     color: var(--hover-color);
-}
 a{
     color: var(--bg-link);
 }
 h1 {
 
-    
+  
     text-align: center;
     font-size: 2.5rem;
     left: 1rem;
@@ -75,10 +69,17 @@ h1 {
     animation-iteration-count: infinite;
     animation-name: floatingh1;
     animation-duration: 2s;
-    
+    padding-right: 83px;
 }
+.wrapper {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 header::before{
-    
+    /* background-image: url('/asserts/pic/in\ night\ moutain\ .jpg'); */
     content: "";
     position: absolute;
     top: 0;
@@ -119,8 +120,21 @@ section {
 .footer {
     position: relative;
     text-align: center;
+
     
 }
+.chat {
+    /* width: 250px; */
+  /* height: 300px; */
+  border-radius: 10px;
+  border: solid aliceblue;
+}
+section {
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
 
 @keyframes floatingh1 {
     0% {
@@ -163,9 +177,6 @@ section {
     }
     .navigation {
         flex-wrap: wrap;
-        margin-top: 42px;
-  margin-bottom: 0;
-  font-family: var(--font4);
     }
     
 }
@@ -179,7 +190,7 @@ section {
     section{
         padding-left: 0;
         padding-right: 0;
-        width: 90%;
+        width: 50%;
     }
     section img {
         height: 173px;
@@ -196,7 +207,7 @@ section {
         /* background-color: rgb(214, 13, 90); */
         padding-left: 0;
         padding-right: 0;
-        width: 85%;
+        width: 50%;
 
     }
 }
