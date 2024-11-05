@@ -5,13 +5,14 @@ html {
 }
 
 body {
-    background-image: url('/asserts/pic/in\ night\ moutain\ .jpg');
+    /* background-image: url('/asserts/pic/in\ night\ moutain\ .jpg'); */
     color: var(--main-bg-color);
-
+    background-color: #374151;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     image-rendering: pixelated;
+    margin: 0;
 
 }
 
@@ -42,6 +43,9 @@ body {
 }
 
 .navigation {
+    margin: 0;
+    background-color: #1f2937;
+
     /*nav bar*/
     display: flex;
     justify-content: center;
@@ -95,7 +99,7 @@ header::before{
     gap: 1rem;
     justify-content: space-between;
     text-decoration: none;
-    align-items: center;
+    align-items: baseline;
     padding: 0 .5rem;
   }
 section img {
@@ -177,6 +181,7 @@ section {
     }
     .navigation {
         flex-wrap: wrap;
+        padding: 10px;
     }
     .content{
         flex-direction: column;
